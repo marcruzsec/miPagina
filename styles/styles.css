@@ -1,0 +1,53 @@
+.imgInicio{
+    width: 100px;
+    
+}
+.navegacion{
+    background-color: black;
+}
+
+.d-block{
+    height: 400px;
+    
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+p{
+    text-align: justify;
+}
+.listaAlarma{
+    text-align: justify;
+}
+.listaCamaras{
+    text-align: justify;
+}
+.listaAccesos{
+    text-align: justify;
+}
+.listaPorteros{
+    text-align: justify;
+}
+.listaIncendios{
+    text-align: justify;
+}
+footer{
+    background-color: rgb(13, 14, 13);
+}
+.pie{
+    color: white;
+}
+.pie-letra{
+    color: blanchedalmond;
+    text-align: center;
+}
+.pie-datos{
+    color: rgb(36, 223, 124);
+}
+.navbar-brand{
+    font: small-caps 200%/200% serif;
+}
+p{
+    text-align: justify;
+}
