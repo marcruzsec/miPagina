@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/54cf576626.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <img class="logo" src="/assets/video/images/nav/logoMC1.png" alt="" />
+          <br /><br />
+          <a class="navbar-brand" href="#">MC Security</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="alarmas.html"
+                      >Sistemas de Alarmas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="camaras.html"
+                      >Sistemas de Camaras</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="accesos.html"
+                      >Sistema de Accesos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="incendios.html"
+                      >Sistemas de Incendios</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="bancaria.html"
+                      >Seguridad Bancaria</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="pcontactos">
+        <br />
+        <h1>¿Interesado en nuestros servicios ¡Contáctanos!</h1>
+        <br />
+        <h3>Email:</h3>
+        <p>marcruzsecsecurity@gmail.com</p>
+        <br />
+        <h3>Encuéntranos en:</h3>
+        <p>Quito y Tulcán</p>
+        <br />
+        <h3>Dirección:</h3>
+        <p>Tulcán: Pichincha y Rafael Arellano</p>
+        <p>Quito: Pasaje s/n y los Girasoles la Ecuatoriana</p>
+        <br />
+        <h3>Teléfono:</h3>
+        <p>(593) 967442355</p>
+        <br />
+        <h3>Horario de atención:</h3>
+        <p>Lunes a Viernes, 8:30 - 17:30</p>
+        <p>Sabados, 9:00 - 14:00</p>
+      </div>
+
+      <br />
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.3538830255598!2d-77.72064983046808!3d0.8141475409183838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e29691fab70c21b%3A0xe94af7fd4f83931!2sMC%20Security!5e0!3m2!1ses-419!2sec!4v1709945867141!5m2!1ses-419!2sec"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <br />
+
+      <div class="pcontactos">
+        <h2>También puedes dejarnos tus comentarios y te contactamos</h2>
+
+        <form
+          class="formcontactos"
+          action="procesar_formulario.php"
+          method="post"
+        >
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <hr />
+      <hr />
+      <div class="row container">
+        <section class="col-md-3">
+          <h6 class="pie">Telefonos</h6>
+          <i class="fa-sharp fa-solid fa-phone" style="color: #b6b12b"></i>
+          <a class="pie-datos" href="tel:">+593967442355</a>
+        </section>
+
+        <section class="col-md-3">
+          <h6 class="pie">Correos</h6>
+          <i
+            class="fa-solid fa-envelope-circle-check"
+            style="color: #df3030"
+          ></i>
+          <a class="pie-datos" href="correo">marcruzsecsecurity@gmail.com</a>
+        </section>
+
+        <section class="col-md-4">
+          <h6 class="pie">Ubicacion</h6>
+          <i class="fa-solid fa-map fa-flip-both" style="color: #7d8a34"></i>
+          <a class="pie-datos" href="">Pichincha y Rafael Arellano</a>
+        </section>
+      </div>
+      <br />
+      <p class="pie-letra">
+        Sitio web creado por Edison Cruz Desarrollo © 2024
+      </p>
+    </footer>
+  </body>
+</html>

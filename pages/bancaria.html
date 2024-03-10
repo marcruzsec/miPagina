@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bancos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/54cf576626.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <img class="logo" src="/assets/video/images/nav/logoMC1.png" alt="" />
+          <br /><br />
+          <a class="navbar-brand" href="#">MC Security</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="alarmas.html"
+                      >Sistemas de Alarmas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="camaras.html"
+                      >Sistemas de Camaras</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="accesos.html"
+                      >Sistema de Accesos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="incendios.html"
+                      >Sistemas de Incendios</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="bancaria.html"
+                      >Seguridad Bancaria</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+     <!----- <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img
+              src="/assets/video/images/bancario/bancario2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="/assets/video/images/bancario/bancario5.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="/assets/video/images/bancario/bancario3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div-->
+    </header>
+
+    <main class="main-alarmas">
+      <table>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Imagen</th>
+          <th>Características</th>
+        </tr>
+        <tr>
+          <td>TRB-RELES NO/NC</td>
+          <td>$36,00</td>
+          <td>
+            <img
+              src="/assets/video/images/bancario/TRB-RELES NONC.jpg"
+              alt="Producto 1"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                TARJETA PARA CONTROL DE CAIDA DE BILLETEROS Funcionamiento a 12
+                vdc Función para control mediante pulsos secos 6 relés de
+                contactos dobles por lado NO/NC Diseño tipo PCB para montaje en
+                gabinetes
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>RB1224</td>
+          <td>$15,75</td>
+          <td>
+            <img
+              src="/assets/video/images/bancario/RB1224.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                Voltaje de entrada
+                Funcionamiento con 12 VCC o 24 VCC.
+                Consumo de corriente: 75mA.
+                Puntuación de contactos
+                Contactos DPDT clasificados en 5A/220VAC o 28VDC.
+                Indicadores LED
+                LED de estado del relé.
+                Salida de estado de LED remoto.
+                La temperatura
+                Temperatura de funcionamiento: -25 ºC a 55 ºC (-13 ºF a 131
+                ºF).
+                Temperatura de almacenamiento: -25ºC a 70ºC (-13ºF a
+                158ºF).
+                Humedad relativa 85% +/-5%.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>TARJETA
+            MULTIFUSIBLES</td>
+          <td>$30,00</td>
+          <td>
+            <img
+              src="/assets/video/images/bancario/TARJETA.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                Tarjeta de Distribución de energía de 12V / 24V CC
+                Bloque de terminales de placa PCB
+                10 vías para conmutar la fuente de alimentación, cableado de
+                corriente eléctrica.
+                Indicadores Led para cada una de las salidas
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>BLOQUEO DIAL
+            CC LAGART</td>
+          <td>$33.99</td>
+          <td>
+            <img
+              src="/assets/video/images/bancario/BLOQUEO DIAL.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                Interface de bloqueo dial para cerraduras Lagart
+                Compatible con modelos:
+                <li>   LaGard Basic</li>
+                <li> LaGard Combogard Pro (39E)</li>
+                <li> LaGard Audit.</li>
+                Control por pulso energizado a 12 vdc
+                Salida de contacto NO para el envío de alarma por clave de
+                coacción
+                Con socket para instalación de batería de 9vdc.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        
+      </table>
+    </main>
+
+    <footer>
+      <hr />
+      <hr />
+      <div class="row container">
+        <section class="col-md-3">
+          <h6 class="pie">Telefonos</h6>
+          <i class="fa-sharp fa-solid fa-phone" style="color: #b6b12b"></i>
+          <a class="pie-datos" href="tel:">+59389567324</a>
+        </section>
+
+        <section class="col-md-3">
+          <h6 class="pie">Correos</h6>
+          <i
+            class="fa-solid fa-envelope-circle-check"
+            style="color: #df3030"
+          ></i>
+          <a class="pie-datos" href="correo">marcruzsecsecurity@gmail.com</a>
+        </section>
+
+        <section class="col-md-4">
+          <h6 class="pie">Ubicacion</h6>
+          <i class="fa-solid fa-map fa-flip-both" style="color: #7d8a34"></i>
+          <a class="pie-datos" href="">Colon y 9 de Octubre</a>
+        </section>
+      </div>
+      <br />
+      <p class="pie-letra">
+        Sitio web creado por Edison Cruz Desarrollo © 2024
+      </p>
+    </footer>
+  </body>
+</html>

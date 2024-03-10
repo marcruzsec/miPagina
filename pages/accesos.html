@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accesos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/54cf576626.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <img class="logo" src="/assets/video/images/nav/logoMC1.png" alt="" />
+          <br /><br />
+          <a class="navbar-brand" href="#">MC Security</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="alarmas.html"
+                      >Sistemas de Alarmas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="camaras.html"
+                      >Sistemas de Camaras</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="accesos.html"
+                      >Sistema de Accesos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="incendios.html"
+                      >Sistemas de Incendios</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="bancaria.html"
+                      >Seguridad Bancaria</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <main class="main-alarmas">
+      <table>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Imagen</th>
+          <th>Características</th>
+        </tr>
+        <tr>
+          <td>PRT-CTRL-DIN</td>
+          <td>$1200,00</td>
+          <td>
+            <img
+              src="/assets/video/images/accesos/PRT-CTRL-DIN.jpg"
+              alt="Producto 1"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                CONTROLADOR DE ACCESOS Y ALARMAS ICT, construido para igualar la
+                escalabilidad sin precedentes del software del sistema integrado
+                ProtegeGX. Responsable del control de seguridad, control de
+                acceso y automatización en el sistema integrado Protégé GX.
+                Procesador ARM9 de 400 MHz 64 MB de RAM y 128 MB de memoria
+                flash integrada Admite 2 lectores a bordo y se expande a más de
+                64 puertas y 1000 zonas de alarma Estándar interno de la
+                industria 10/100 Ethernet Comuníquese con módulos Ethernet que
+                están interconectados mediante una LAN o una red corporativa.
+                Marcador de comunicaciones de línea dual externo incorporado
+                (ContactID, SIA) 8x entradas de zona monitoreada de alta
+                seguridad Red de módulos RS-485 encriptados El panel frontal LED
+                muestra información de estado y diagnóstico Gabinete de montaje
+                en riel DIN estándar de la industria
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>PRT-RDM2-DIN</td>
+          <td>$600,75</td>
+          <td>
+            <img
+              src="/assets/video/images/accesos/PRT-RDM2-DIN.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                El Mini Expansor de 2 Lectores de Riel DIN Protege proporciona
+                la interfaz de hasta 4 entradas de lectores y 2 Salidas de
+                dispositivos de bloqueo al sistema integrado de control de
+                acceso, seguridad y automatización de edificios Protege, un
+                producto de seguridad de tecnología avanzada que brinda una
+                integración perfecta y poderosa. El expansor de 2 lectores Mini
+                para riel DIN de Protege ofrece amplios avances de hardware que
+                brindan control de acceso flexible, control de área y monitoreo
+                de alarmas, y está diseñado para usarse con el montaje en riel
+                DIN estándar de la industria.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>PRT-HPX8-DIN</td>
+          <td>$520,00</td>
+          <td>
+            <img
+              src="/assets/video/images/accesos/PRT-HPX8-DIN.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                El Expansor de 8 Salidas amplía el sistema Protege con 8 salidas
+                adicionales para automatización. Con relés de forma C de alta
+                corriente, el expansor de salida proporciona amplios avances de
+                hardware que permiten un control flexible y estructurado de los
+                sistemas de construcción, incluidos la iluminación y HVAC.
+              </li>
+              <li>
+                 8 relés de forma C capaces de conmutar cargas resistivas de
+                hasta 7 amperios
+              </li>
+              <li>
+                 Cada expansor de salida puede monitorear hasta 8 entradas de
+                problemas
+              </li>
+              <li>
+                 Ideal para la conexión en una sala de interruptores eléctricos
+                para controlar la señalización, la iluminación y la
+                automatización de edificios
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>PRT-HZX16-DIN</td>
+          <td>$520.99</td>
+          <td>
+            <img
+              src="/assets/video/images/accesos/PRT-HZX16-DIN.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                El expansor de 16 entradas de riel medio DIN Protege proporciona
+                16 entradas adicionales para monitoreo y automatización en el
+                sistema Protege. Con entradas que se pueden usar para una
+                funcionalidad de monitoreo extendida, el expansor de entrada
+                proporciona amplios avances de hardware que permiten una
+                programación y configuración de entrada flexibles, y está
+                diseñado para usarse con el montaje en riel DIN estándar de la
+                industria.
+              </li>
+              <li> 16 entradas multipropósito</li>
+              <li>
+                 Alarma de entrada de 4 estados que utiliza resistencias para
+                proporcionar condiciones de cortocircuito, alarma, cierre y
+                manipulación
+              </li>
+              <li>
+                 Conecte cualquier combinación de entradas normalmente cerradas
+                o normalmente abiertas, configurable por entrada
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>KT-400</td>
+          <td>$1209.99</td>
+          <td>
+            <img
+              src="/assets/video/images/accesos/KT-400.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                KT-400 es un controlador de cuatro puertas listo para Ethernet
+                que proporciona comunicación cifrada AES de 128 bits con el
+                software de seguridad EntraPass y es una solución altamente
+                segura para cualquier empresa preocupada por la seguridad. El
+                KT-400 se puede integrar fácilmente en un sistema EntraPass
+                existente con otros controladores Kantech ( KT-1, KT-2, KT-300
+                ).
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>KT-400</td>
+          <td>$1209.99</td>
+          <td>
+            <img
+              src="/assets/video/images/accesos/KT-400.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                KT-2 El controlador de dos puertas listo para Ethernet KT-2
+                admite dos lectores y se puede configurar en dos modos
+                operativos fáciles de usar. El modo independiente KT-2 ofrece
+                seguridad básica de dos puertas utilizando un navegador web
+                simple sin necesidad de conectarse a un sistema host. Como
+                alternativa, el KT-2 se puede utilizar con el potente software
+                de gestión de seguridad EntraPass (v8.40 y superior)
+              </li>
+              <li>
+                 Controlador IP de dos puertas (entrada): admite 2 lectores
+              </li>
+              <li> La conectividad Wi-Fi reduce los costos de instalación</li>
+              <li>
+                 Botón único sensible al tacto para una rápida instalación Plug
+                & Play
+              </li>
+              <li>
+                 Inscripción automática del controlador (Software de seguridad
+                EntraPass)
+              </li>
+              <li>
+                 En Standalone, configure y administre dos puertas usando un
+                simple navegador web incorporado, sin software para comprar e
+                instalar
+              </li>
+              <li>
+                 Asistente de configuración intuitivo para una configuración
+                rápida
+              </li>
+              <li>
+                 Entrada de alimentación flexible: alimentación a través de
+                Ethernet (PoE), POE+ o 12 VCC
+              </li>
+              <li>
+                 Indicadores de estado LED para resolución de problemas de
+                mantenimiento
+              </li>
+              <li> Cifrado AES de 128 bits altamente seguro</li>
+              <li>
+                 Cifrado de extremo a extremo con el lector ioSmart y la
+                tarjeta inteligente de Kantech
+              </li>
+              <li>
+                 Compatible con los protocolos de comunicación Wigand y RS-485
+              </li>
+              <li>
+                 Compatible con los controladores Kantech existentes, incluidos
+                KT-1, KT- 300 y KT-400
+              </li>
+              <li>
+                 Compatible con EntraPass Security Management Software v8.40 o
+                superior
+              </li>
+              <li></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>ROSSLARE
+            ACC-425 IP</td>
+          <td>$180.99</td>
+          <td>
+            <img
+              src="/assets/video/images/accesos/ROSSLARE.jpg"
+              alt="Producto 2"
+              class="listaAlarma"
+            />
+          </td>
+          <td>
+            <ul>
+              <li>
+                El AC-225 es perfecto para aplicaciones de hasta 30,000
+                usuarios y de hasta 4,092 puertas, ofreciendo la máxima
+                flexibilidad a la hora de asegurar una empresa en expansión.
+                Cada Unidad de Control de Acceso (UCA) del AC225 soporta
+                dos lectores (Entrada/Salida) de varios formatos incluyendo el
+                Wiegand estándar de 26 bits. Las instalaciones también
+                pueden tener un lector por puerta. El AC-225 es de fácil
+                instalación al contar con una carcasa de metal que se puede
+                montar y asegurar, integrada con un transformador, fuente
+                de energía/cargador, sirena y tarjeta de control.
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </main>
+
+    <footer>
+      <hr />
+      <hr />
+      <div class="row container">
+        <section class="col-md-3">
+          <h6 class="pie">Telefonos</h6>
+          <i class="fa-sharp fa-solid fa-phone" style="color: #b6b12b"></i>
+          <a class="pie-datos" href="tel:">+59389567324</a>
+        </section>
+
+        <section class="col-md-3">
+          <h6 class="pie">Correos</h6>
+          <i
+            class="fa-solid fa-envelope-circle-check"
+            style="color: #df3030"
+          ></i>
+          <a class="pie-datos" href="correo">marcruzsecsecurity@gmail.com</a>
+        </section>
+
+        <section class="col-md-4">
+          <h6 class="pie">Ubicacion</h6>
+          <i class="fa-solid fa-map fa-flip-both" style="color: #7d8a34"></i>
+          <a class="pie-datos" href="">Colon y 9 de Octubre</a>
+        </section>
+      </div>
+      <br />
+      <p class="pie-letra">
+        Sitio web creado por Edison Cruz Desarrollo © 2024
+      </p>
+    </footer>
+  </body>
+</html>
