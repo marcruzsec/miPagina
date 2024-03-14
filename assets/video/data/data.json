@@ -1,0 +1,28 @@
+{
+  "carrito": [
+    {
+      "id": "2",
+      "producto": "PRT-RDM2-DIN",
+      "precio": 600.75,
+      "cantidad": 1
+    },
+    {
+      "id": "14",
+      "producto": "RB1224",
+      "precio": 15.75,
+      "cantidad": 2
+    },
+    {
+      "id": "16",
+      "producto": "BLOQUEO DIAL-CC LAGART",
+      "precio": 33.99,
+      "cantidad": 1
+    },
+    {
+      "id": "13",
+      "producto": "TRB-RELES NO/NC",
+      "precio": 36,
+      "cantidad": 2
+    }
+  ]
+}

@@ -21,6 +21,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <script src="/scripts/script.js"></script>
+
     <style>
       th,
       td {
@@ -129,6 +131,7 @@
               <button class="btn btn-outline-success" type="submit">
                 Search
               </button>
+              <h1>&nbsp;</h1>
               <button class="btn btn-outline-danger" type="button" onclick="window.location.href = '/pages/carrito.html';">
                 Carrito de Compras
                 </button>
@@ -214,7 +217,13 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="TRB-RELES NO/NC" onclick="agregarProductos('13','TRB-RELES NO/NC', 36.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
+
         <tr>
           <td>RB1224</td>
           <td>$15,75</td>
@@ -245,7 +254,13 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="RB1224" onclick="agregarProductos('14','RB1224', 15.75)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
+
         <tr>
           <td>TARJETA
             MULTIFUSIBLES</td>
@@ -268,7 +283,14 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="TARJETA
+              MULTIFUSIBLES" onclick="agregarProductos('15','TARJETA-MULTIFUSIBLES', 30.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
+
         <tr>
           <td>BLOQUEO DIAL
             CC LAGART</td>
@@ -295,6 +317,12 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="BLOQUEO DIAL
+              CC LAGART" onclick="agregarProductos('16','BLOQUEO DIAL-CC LAGART', 33.99)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
         
       </table>

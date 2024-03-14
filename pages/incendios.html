@@ -21,6 +21,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <script src="/scripts/script.js"></script>
+
 
     <style>
       th,
@@ -42,10 +44,6 @@
 </head>
 <body>
     
-
-
-
-
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary"data-bs-theme="dark">
           <div class="container-fluid">
@@ -129,6 +127,7 @@
                 <button class="btn btn-outline-success" type="submit">
                   Search
                 </button>
+                <h1>&nbsp;</h1>
                 <button class="btn btn-outline-danger" type="button" onclick="window.location.href = '/pages/carrito.html';">
                   Carrito de Compras
                   </button>
@@ -149,7 +148,7 @@
             <th>Características</th>
           </tr>
           <tr>
-            <td>P2R - SP</td>
+            <td>P2R-SP</td>
             <td>$46,00</td>
             <td>
               <img
@@ -168,7 +167,13 @@
                 </li>
               </ul>
             </td>
+            <td>
+              <div>
+                <button id="P2R-SP" onclick="agregarProductos('25','P2R-SP', 46.00)" class="btn btn-success">Agregar Compra</button>
+            </div>
+          </td>
           </tr>
+
           <tr>
             <td>FL-BG-12LSP</td>
             <td>$34,75</td>
@@ -196,7 +201,13 @@
                 </li>
               </ul>
             </td>
+            <td>
+              <div>
+                <button id="FL-BG-12LSP" onclick="agregarProductos('26','FL-BG-12LSP', 35.75)" class="btn btn-success">Agregar Compra</button>
+            </div>
+          </td>
           </tr>
+
           <tr>
             <td>ECO1003 +
               ECO1000 BREL</td>
@@ -223,6 +234,12 @@
                 </li>
               </ul>
             </td>
+            <td>
+              <div>
+                <button id="ECO1003 +
+                ECO1000 BREL" onclick="agregarProductos('27','ECO1003+ECO1000 BREL', 28.00)" class="btn btn-success">Agregar Compra</button>
+            </div>
+          </td>
           </tr>
         </table>
       </main>

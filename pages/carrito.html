@@ -23,6 +23,13 @@
 
     <script src="/scripts/script.js"></script>
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <style>
       th,
@@ -135,53 +142,47 @@
           </div>
         </div>
       </nav>
-
     </header>
 
+    <main class="row container-fluid">
+      <section class="col-md-10">
+        <h2>Carrito de Compras</h2>
+        <p>Detalle de Compras</p>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Cantidad</th>
+              <th>Precio/u</th>
+              <th>Total</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+          <tfoot>
+            <tr>
+              <th></th>
+              <th></th>
+              <th class="text-center">SUB TOTAL $</th>
+              <td id="subtotal">0.00</td>
+            </tr>
+            <tr>
+              <th></th>
+              <th></th>
+              <th class="text-center">IVA $</th>
+              <td id="iva">0.00</td>
+            </tr>
+            <tr>
+              <th></th>
+              <th></th>
+              <th class="text-center">TOTAL $</th>
+              <td id="total">0.00</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
 
-<main class="row container-fluid">
-
-<section class="col-md-5">
-    <div>
-        <button id="PRT-RDM2-DIN" onclick="agregarProductos('PRT-RDM2-DIN', 600.75)" class="btn btn-success">Agregar Compra</button>
-    <button id="hamburguesa" onclick="agregarProductos('hamburguesa', 5)" class="btn btn-success">Hamburguesa - $5 <img src="/assets/images/hamburguesa.jpg" alt="" class="btnCarrito"></button>
-</div>
-<div>
-    <button id="papas" onclick="agregarProductos('papas fritas', 7)" class="btn btn-info">Papas Fritas - $7 <img src="/assets/images/papasFritas.jpg" alt="" class="btnCarrito"></button>
-    <button id="hotdog" onclick="agregarProductos('Hot-Dog', 2.5)" class="btn btn-info">Hot Dog - $2.5 <img src="/assets/images/hotDog.jpg" alt="" class="btnCarrito"></button>
-</div>
-</section>
-
-<section class="col-md-7">
-    <h2>Carrito de Compras</h2>
-    <p>Detalle de Compras</p>            
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Producto</th>
-          <th>Cantidad</th>
-          <th>Precio/u</th>
-          <th>Total</th>
-          <th>Acciones</th>
-        </tr>
-      </thead>
-      <tbody id="tbody">
-      
-      </tbody>
-      <tfoot>
-        <th>TOTAL</th>
-        <th></th>
-        <th></th>
-        <td id="total">0.00</td>
-        
-      </tfoot>
-    </table>
-</section>
-
-</main>
-
-
-<footer></footer>
-
-</body>
+    <footer></footer>
+  </body>
 </html>

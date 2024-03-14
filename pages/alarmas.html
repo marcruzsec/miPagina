@@ -21,6 +21,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <script src="/scripts/script.js"></script>
+
     <style>
            th,
       td {
@@ -129,6 +131,7 @@
               <button class="btn btn-outline-success" type="submit">
                 Search
               </button>
+              <h1>&nbsp;</h1>
               <button class="btn btn-outline-danger" type="button" onclick="window.location.href = '/pages/carrito.html';">
                 Carrito de Compras
                 </button>
@@ -145,7 +148,9 @@
           <th>Precio</th>
           <th>Imagen</th>
           <th>Características</th>
+          <th>Acciones</th>
         </tr>
+
         <tr>
           <td>Kit de alarma inalambrico</td>
           <td>$156,00</td>
@@ -184,7 +189,13 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="Kit de alarma inalambrico" onclick="agregarProductos('8','Kit de alarma inalambrico', 156.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
+
         <tr>
           <td>TL2803GE-LAT</td>
           <td>$184,75</td>
@@ -208,7 +219,13 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="TL2803GE-LAT" onclick="agregarProductos('9','TL2803GE-LAT', 185.75)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
+
         <tr>
           <td>RK815DTG3</td>
           <td>$52,00</td>
@@ -242,7 +259,13 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="RK815DTG3" onclick="agregarProductos('10','RK815DTG3', 52.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
+
         <tr>
           <td>ADE-SC100</td>
           <td>$70.99</td>
@@ -265,7 +288,13 @@
                 vibración ambiental y los ataques reales.</li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="ADE-SC100" onclick="agregarProductos('11','ADE-SC100', 70.99)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
+
         <tr>
           <td>ST2406-5AQ</td>
           <td>$49.99</td>
@@ -295,6 +324,11 @@
                 sencilla instalación.</li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="ST2406-5AQ" onclick="agregarProductos('12','ST2406-5AQ', 49.99)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
       </table>
     </main>
