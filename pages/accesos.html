@@ -20,6 +20,8 @@
       src="https://kit.fontawesome.com/54cf576626.js"
       crossorigin="anonymous"
     ></script>
+    <script src="/scripts/script.js"></script>
+
 
     <style>
       th,
@@ -128,6 +130,9 @@
               <button class="btn btn-outline-success" type="submit">
                 Search
               </button>
+              <button class="btn btn-outline-danger" type="button" onclick="window.location.href = '/pages/carrito.html';">
+              Carrito de Compras
+              </button>
             </form>
           </div>
         </div>
@@ -142,6 +147,7 @@
           <th>Precio</th>
           <th>Imagen</th>
           <th>Características</th>
+          <th>Acciones</th>
         </tr>
         <tr>
           <td>PRT-CTRL-DIN</td>
@@ -173,6 +179,11 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="PRT-CTRL-DIN" onclick="agregarProductos('PRT-CTRL-DIN', 1200.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
         <tr>
           <td>PRT-RDM2-DIN</td>
@@ -200,6 +211,11 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="PRT-RDM2-DIN" onclick="agregarProductos('PRT-RDM2-DIN', 600.75)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
         <tr>
           <td>PRT-HPX8-DIN</td>
@@ -235,6 +251,11 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="PRT-HPX8-DIN" onclick="agregarProductos('PRT-HPX8-DIN', 520.00)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
         <tr>
           <td>PRT-HZX16-DIN</td>
@@ -270,6 +291,11 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="PRT-HZX16-DIN" onclick="agregarProductos('PRT-HZX16-DIN', 500.99)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
         <tr>
           <td>KT-400</td>
@@ -294,10 +320,15 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="KT-400" onclick="agregarProductos('KT-400', 1209.99)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
         <tr>
-          <td>KT-400</td>
-          <td>$1209.99</td>
+          <td>KT-2</td>
+          <td>$609.99</td>
           <td>
             <img
               src="/assets/video/images/accesos/KT-400.jpg"
@@ -364,6 +395,11 @@
               <li></li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="KT-2" onclick="agregarProductos('KT-2', 609.99)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
         <tr>
           <td>ROSSLARE
@@ -392,6 +428,12 @@
               </li>
             </ul>
           </td>
+          <td>
+            <div>
+              <button id="ROSSLARE
+              ACC-425 IP" onclick="agregarProductos('ROSSLARE-ACC-425-P', 180.99)" class="btn btn-success">Agregar Compra</button>
+          </div>
+        </td>
         </tr>
       </table>
     </main>
