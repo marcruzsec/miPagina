@@ -1,6 +1,9 @@
 .imgInicio{
     width: 100px; 
 }
+.nav-link {
+  font-size: 30px; /* Cambiar el tamaño según tu preferencia */
+}
 .into{
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
