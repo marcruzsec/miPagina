@@ -1,12 +1,6 @@
 {
   "carrito": [
     {
-      "id": "2",
-      "producto": "PRT-RDM2-DIN",
-      "precio": 600.75,
-      "cantidad": 1
-    },
-    {
       "id": "14",
       "producto": "RB1224",
       "precio": 15.75,
@@ -23,6 +17,18 @@
       "producto": "TRB-RELES NO/NC",
       "precio": 36,
       "cantidad": 2
+    },
+    {
+      "id": "8",
+      "producto": "Kit de alarma inalambrico",
+      "precio": 156,
+      "cantidad": 4
+    },
+    {
+      "id": "9",
+      "producto": "TL2803GE-LAT",
+      "precio": 185.75,
+      "cantidad": 1
     }
   ]
 }
